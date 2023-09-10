@@ -1,4 +1,8 @@
 {
+    "theme": "bee",
     "portal_path": "/bee/",
-    "theme": "light"
+    "redirected_regex": {
+        "sso.hunsche.us/yunohost[\\/]?$": "https://sso.hunsche.us/bee/",
+        "sso.hunsche.us/hive[\\/]?$": "https://sso.hunsche.us/bee/"
+    }
 }
