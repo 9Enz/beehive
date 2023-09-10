@@ -1,0 +1,49 @@
+body {background-color:#FF9911;}
+
+/* Make page texts black */
+.user-container h2,
+.user-container small,
+.user-container .user-mail,
+.user-container .user-mail,
+.content .footer a,
+a.app-tile,
+#ynh-logout {
+  color: black !important;
+}
+
+/* Use Hive background image */
+.ynh-user-portal {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Apps colors */
+.app-tile {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.app-tile:hover:after,
+.app-tile:focus:after,
+.app-tile:hover:before,
+.app-tile:focus:before {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.classic-btn {
+    background: #1188EE;
+}
+.classic-btn:hover, .classic-btn:focus {
+    background: #2299FF;
+}
+.messages.info {
+    background: #1188EE;
+}
+
+/* Use Bee logo image */
+#ynh-logo {
+  opacity: unset;
+  background-image: url("./bee.png");
+}
