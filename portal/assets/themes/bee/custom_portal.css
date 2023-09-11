@@ -41,7 +41,14 @@ a.app-tile,
 .messages.info {
     background: #1188EE;
 }
+.messages.success {
+    background: #77BB00;
+}
 
+.messages.warning {
+    background: #FFDD00;
+    color: black;
+}
 /* Use Bee logo image */
 #ynh-logo {
   opacity: unset;
