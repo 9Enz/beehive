@@ -54,3 +54,5 @@ a.app-tile,
   opacity: unset;
   background-image: url("./bee.png");
 }
+/* Minor UI corrections */
+.dropdown-item svg.bi {margin: 0 4px 0 -4px;}
